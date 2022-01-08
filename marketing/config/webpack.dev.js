@@ -6,7 +6,7 @@ const devConfig = {
   mode: "development",
   devServer: {
     port: 8081,
-    historyApiCallBack: {
+    historyApiFallback: {
       index: "index.html",
     },
   },
